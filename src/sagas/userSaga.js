@@ -21,8 +21,8 @@ function* fetchUsers(action) {
   }
 }
 
-function* userSaga(){
-    yield takeEvery("GET_USERS_REQUESTED", fetchUsers);
+function* userSaga() {
+  yield takeEvery("GET_USERS_REQUESTED", fetchUsers);
 }
 
 export default userSaga;
